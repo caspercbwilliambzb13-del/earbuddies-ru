@@ -3104,6 +3104,11 @@ a {
     height: 2359px;
   }
 
+  .brand-logo {
+    max-width: 140px;
+    height: auto;
+  }
+
   .hero-heading {
     font-size: 72px;
     line-height: 80px;
@@ -3207,4 +3212,6 @@ a {
 /* Локальная копия без служебного бейджа платформы. */
 .w-webflow-badge { display: none !important; }
 /* Русское название сохраняет двухстрочную композицию оригинала. */
-.hero-heading { font-size: clamp(64px, 8vw, 112px); line-height: 1.05; }
+.hero-heading { font-size: clamp(56px, 6vw, 84px); line-height: 1.05; }
+
+body{overflow-x:clip}
